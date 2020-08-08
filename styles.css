@@ -68,7 +68,7 @@ hr {
 }
 
 .p1-info p {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .p2 {
@@ -99,7 +99,7 @@ hr {
 }
 
 .p2-info p {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .p3 {
@@ -129,7 +129,7 @@ hr {
 }
 
 .p3-info p {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .p4 {
@@ -160,7 +160,7 @@ hr {
 }
 
 .p4-info p {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .p1-info a, .p3-info a {
@@ -196,7 +196,7 @@ hr {
 /*------------------------- ARTWORK SECTION!! --------------------------*/
 
 #all-artwork {
-  height: 600px;
+  height: 800px;
   width: 100%;
   position: relative;
   font-family: 'Oswald', sans-serif;
@@ -934,7 +934,7 @@ svg .draw {
   .all-projects {
     display: flex;
     flex-wrap: wrap;
-    height: 2280px;
+    height: 2430px;
     width: 100%;
     position: relative;
     font-family: 'Oswald', sans-serif;
@@ -944,7 +944,7 @@ svg .draw {
 
   .p2 {
     padding: 30px 0;
-    height: 700px;
+    height: 750px;
     background: linear-gradient(-90deg, #3a3a3a 35%, #1c1c1c);
     width: 100%;
     display: flex;
@@ -952,24 +952,29 @@ svg .draw {
     justify-content: space-around;
   }
 
-  .p2-image, .p2-info {
+  .p2-image {
     width: 70%;
-    max-width: 520px;
+    max-width: 500px;
     align-items: center;
     align-self: center;
   }
 
+  .p2-info {
+    width: 75%;
+    max-width: 100%;
+  }
+
   .p2-info h2 {
-    font-size: 33px;
+    font-size: 40px;
   }
 
   .p2-info p {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .p3 {
     padding: 30px 0;
-    height: 700px;
+    height: 750px;
     background: linear-gradient(90deg, #ac1f23 35%, #4c0101);
     width: 100%;
     display: flex;
@@ -977,24 +982,29 @@ svg .draw {
     justify-content: space-around;
   }
 
-  .p3-image, .p3-info {
+  .p3-image {
     width: 70%;
-    max-width: 520px;
+    max-width: 500px;
     align-items: center;
     align-self: center;
   }
 
+  .p3-info {
+    width: 75%;
+    max-width: 100%;
+  }
+
   .p3-info h2 {
-    font-size: 33px;
+    font-size: 40px;
   }
 
   .p3-info p {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .p4 {
     padding: 30px 0;
-    height: 700px;
+    height: 750px;
     background: linear-gradient(-90deg, #3a3a3a 35%, #1c1c1c);
     width: 100%;
     display: flex;
@@ -1002,19 +1012,24 @@ svg .draw {
     justify-content: space-around;
   }
 
-  .p4-image, .p4-info {
+  .p4-image {
     width: 70%;
-    max-width: 520px;
+    max-width: 500px;
     align-items: center;
     align-self: center;
   }
 
+  .p4-info {
+    width: 75%;
+    max-width: 100%;
+  }
+
   .p4-info h2 {
-    font-size: 33px;
+    font-size: 40px;
   }
 
   .p4-info p {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .p1-info a, .p3-info a {
@@ -1331,6 +1346,15 @@ svg .draw {
     padding: 8px 35px;
     line-height: 50px;
   }
+
+  #all-artwork {
+    height: 550px;
+    width: 100%;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    background: #333333;
+  }
 }
 
 @media (max-width: 680px) {
@@ -1439,6 +1463,15 @@ svg .draw {
     padding: 10px 40px;
   }
 
+  #all-artwork {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    background: #333333;
+  }
+
   #aboutme {
     background: #fff;
     height: 600px;
@@ -1544,19 +1577,6 @@ svg .draw {
     line-height: 50px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
