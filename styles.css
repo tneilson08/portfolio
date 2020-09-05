@@ -47,6 +47,7 @@ hr {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  order: 1;
 }
 
 .p1-image, .p1-info {
@@ -77,6 +78,7 @@ hr {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+  order: 2;
 }
 
 .p2-image, .p2-info {
@@ -102,10 +104,12 @@ hr {
 
 .p3 {
   height: 550px;
-  background: linear-gradient(-90deg, #3a3a3a 35%, #1c1c1c);
+  background: linear-gradient(90deg, #ac1f23 35%, #4c0101);
   width: 100%;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
+  order: 4;
 }
 
 .p3-image, .p3-info {
@@ -131,11 +135,11 @@ hr {
 
 .p4 {
   height: 550px;
-  background: linear-gradient(90deg, #ac1f23 35%, #4c0101);
+  background: linear-gradient(-90deg, #3a3a3a 35%, #1c1c1c);
   width: 100%;
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-around;
+  order: 3;
 }
 
 .p4-image, .p4-info {
@@ -159,7 +163,7 @@ hr {
   font-size: 26px;
 }
 
-.p1-info a, .p3-info a {
+.p1-info a, .p4-info a {
   text-decoration: none;
   color: white;
   border: 2px solid white;
@@ -168,13 +172,13 @@ hr {
   padding: 15px 50px;
 }
 
-.p1-info a:hover, .p3-info a:hover {
+.p1-info a:hover, .p4-info a:hover {
   color: #1c1c1c;
   background: white;
   transition: 0.5s;
 }
 
-.p2-info a, .p4-info a {
+.p2-info a, .p3-info a {
   text-decoration: none;
   color: white;
   border: 2px solid white;
@@ -183,7 +187,7 @@ hr {
   padding: 15px 50px;
 }
 
-.p2-info a:hover, .p4-info a:hover {
+.p2-info a:hover, .p3-info a:hover {
   color: #ac1f23;
   background: white;
   transition: 0.5s;
